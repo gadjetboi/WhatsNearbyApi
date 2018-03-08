@@ -1,0 +1,4 @@
+2018-03-04 20:32:05.8398|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-03-04 20:32:06.1232|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 306.1823ms 404 
+2018-03-04 20:32:06.1606|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-03-04 20:32:06.1697|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.4736ms 404 

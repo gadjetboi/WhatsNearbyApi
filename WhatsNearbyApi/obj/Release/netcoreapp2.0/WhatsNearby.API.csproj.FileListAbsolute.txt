@@ -1,0 +1,15 @@
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\bin\Release\netcoreapp2.0\nlog.config
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\bin\Release\netcoreapp2.0\WhatsNearby.API.deps.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\bin\Release\netcoreapp2.0\WhatsNearby.API.runtimeconfig.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\bin\Release\netcoreapp2.0\WhatsNearby.API.runtimeconfig.dev.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\bin\Release\netcoreapp2.0\WhatsNearby.API.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\bin\Release\netcoreapp2.0\WhatsNearby.API.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\bin\Release\netcoreapp2.0\WhatsNearby.Common.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\bin\Release\netcoreapp2.0\Yelp.Api.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\bin\Release\netcoreapp2.0\WhatsNearby.Common.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\obj\Release\netcoreapp2.0\WhatsNearby.API.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\obj\Release\netcoreapp2.0\WhatsNearby.API.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\obj\Release\netcoreapp2.0\WhatsNearby.API.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\obj\Release\netcoreapp2.0\WhatsNearby.API.AssemblyInfo.cs
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\obj\Release\netcoreapp2.0\WhatsNearby.API.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearby\WhatsNearby\obj\Release\netcoreapp2.0\WhatsNearby.API.pdb

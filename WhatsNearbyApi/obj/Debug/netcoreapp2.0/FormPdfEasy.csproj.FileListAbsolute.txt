@@ -1,0 +1,12 @@
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\bin\Debug\netcoreapp2.0\FormPdfEasy.deps.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\bin\Debug\netcoreapp2.0\FormPdfEasy.runtimeconfig.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\bin\Debug\netcoreapp2.0\FormPdfEasy.runtimeconfig.dev.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\bin\Debug\netcoreapp2.0\FormPdfEasy.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\obj\Debug\netcoreapp2.0\FormPdfEasy.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\obj\Debug\netcoreapp2.0\FormPdfEasy.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\obj\Debug\netcoreapp2.0\FormPdfEasy.AssemblyInfo.cs
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\bin\Debug\netcoreapp2.0\FormPdfEasy.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\obj\Debug\netcoreapp2.0\FormPdfEasy.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\obj\Debug\netcoreapp2.0\FormPdfEasy.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\bin\Debug\netcoreapp2.0\nlog.config
+C:\Users\admin\Documents\Visual Studio 2017\Projects\FormPdfEasy\FormPdfEasy\obj\Debug\netcoreapp2.0\FormPdfEasy.csprojResolveAssemblyReference.cache

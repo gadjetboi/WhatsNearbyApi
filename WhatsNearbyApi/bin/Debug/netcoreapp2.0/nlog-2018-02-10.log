@@ -1,0 +1,117 @@
+2018-02-10 01:22:09.1423|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-10 01:22:09.4394|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 348.2529ms 404 
+2018-02-10 01:22:09.4746|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-10 01:22:09.4877|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.3781ms 404 
+2018-02-10 01:22:43.3823|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-10 01:22:43.4987|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-10 01:22:48.1866|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-10 01:22:48.2303|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 4758.3788ms
+2018-02-10 01:22:48.2303|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4851.3084ms 200 application/json; charset=utf-8
+2018-02-10 01:38:18.2106|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-10 01:38:18.4614|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 277.9021ms 404 
+2018-02-10 01:38:18.5159|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-10 01:38:18.5278|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.4469ms 404 
+2018-02-10 01:38:35.2839|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-10 01:38:35.3710|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-10 01:38:40.7584|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-10 01:38:40.8025|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 5458.4138ms
+2018-02-10 01:38:40.8025|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5521.7042ms 200 application/json; charset=utf-8
+2018-02-10 01:39:03.9134|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-10 01:39:03.9134|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-10 01:39:05.2528|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-10 01:39:05.2635|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 1346.3555ms
+2018-02-10 01:39:05.2635|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1353.3592ms 200 application/json; charset=utf-8
+2018-02-10 01:39:32.2689|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-10 01:39:32.4802|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 242.4737ms 404 
+2018-02-10 01:39:32.5066|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-10 01:39:32.5066|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.3605ms 404 
+2018-02-10 01:39:39.6261|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/auth/register application/json 155
+2018-02-10 01:39:39.6969|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-10 01:39:39.6969|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-10 01:39:39.6969|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-10 01:39:39.6969|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-10 01:39:39.8046|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.AccountController.Register (PoliceTracker.API) with arguments (PoliceTracker.Models.RegisterUserDto) - ModelState is Valid
+2018-02-10 01:39:39.9599|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-10 01:39:39.9692|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Discriminator", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName", "u"."FirstName", "u"."Gender", "u"."LastName"
+FROM "AspNetUsers" AS "u"
+WHERE ("u"."Discriminator" = 'CustomUser') AND ("u"."NormalizedUserName" = @__normalizedUserName_0)
+LIMIT 1
+2018-02-10 01:39:40.0306|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-10 01:39:40.0517|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?', @p12='?', @p13='?', @p14='?', @p15='?', @p16='?', @p17='?', @p18='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "Discriminator", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName", "FirstName", "Gender", "LastName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18);
+2018-02-10 01:39:40.1025|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-10 01:39:40.1025|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Discriminator", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName", "u"."FirstName", "u"."Gender", "u"."LastName"
+FROM "AspNetUsers" AS "u"
+WHERE ("u"."Discriminator" = 'CustomUser') AND ("u"."NormalizedUserName" = @__normalizedUserName_0)
+LIMIT 1
+2018-02-10 01:39:40.1147|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-10 01:39:40.1147|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?', @p2='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUserClaims" ("ClaimType", "ClaimValue", "UserId")
+VALUES (@p0, @p1, @p2);
+SELECT "Id"
+FROM "AspNetUserClaims"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2018-02-10 01:39:40.1298|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p17='?', @p0='?', @p1='?', @p18='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?', @p12='?', @p13='?', @p14='?', @p15='?', @p16='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NormalizedEmail" = @p6, "NormalizedUserName" = @p7, "PasswordHash" = @p8, "PhoneNumber" = @p9, "PhoneNumberConfirmed" = @p10, "SecurityStamp" = @p11, "TwoFactorEnabled" = @p12, "UserName" = @p13, "FirstName" = @p14, "Gender" = @p15, "LastName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+SELECT changes();
+2018-02-10 01:39:40.1560|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 201
+2018-02-10 01:39:40.1626|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.AccountController.Register (PoliceTracker.API) in 473.577ms
+2018-02-10 01:39:40.1626|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 550.0634ms 201 
+2018-02-10 01:46:46.9930|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/auth/register application/json 155
+2018-02-10 01:46:47.1413|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-10 01:46:47.1455|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-10 01:46:47.1455|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-10 01:46:47.1455|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-10 01:46:47.2171|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.AccountController.Register (PoliceTracker.API) with arguments (PoliceTracker.Models.RegisterUserDto) - ModelState is Valid
+2018-02-10 01:46:47.3047|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-10 01:46:47.3047|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Discriminator", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName", "u"."FirstName", "u"."Gender", "u"."LastName"
+FROM "AspNetUsers" AS "u"
+WHERE ("u"."Discriminator" = 'CustomUser') AND ("u"."NormalizedUserName" = @__normalizedUserName_0)
+LIMIT 1
+2018-02-10 01:46:47.3501|WARN|Microsoft.AspNetCore.Identity.UserManager|User ef3486cb-45e6-425c-b7b8-81cd5bdb2e7c validation failed: DuplicateUserName.
+2018-02-10 01:46:47.3758|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-10 01:46:47.3758|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Discriminator", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName", "u"."FirstName", "u"."Gender", "u"."LastName"
+FROM "AspNetUsers" AS "u"
+WHERE ("u"."Discriminator" = 'CustomUser') AND ("u"."NormalizedUserName" = @__normalizedUserName_0)
+LIMIT 1
+2018-02-10 01:46:47.3787|WARN|Microsoft.AspNetCore.Identity.UserManager|User ef3486cb-45e6-425c-b7b8-81cd5bdb2e7c validation failed: DuplicateUserName.
+2018-02-10 01:46:47.3787|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 201
+2018-02-10 01:46:47.3787|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.AccountController.Register (PoliceTracker.API) in 249.0063ms
+2018-02-10 01:46:47.3940|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 415.6806ms 201 
+2018-02-10 01:48:27.3153|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-10 01:48:27.3153|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-10 01:48:28.8254|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-10 01:48:28.8478|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 1524.1813ms
+2018-02-10 01:48:28.8478|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1534.5451ms 200 application/json; charset=utf-8
+2018-02-10 01:49:16.0520|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-10 01:49:16.0520|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-10 01:49:17.2311|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-10 01:49:17.2371|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 1183.7134ms
+2018-02-10 01:49:17.2371|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1187.6708ms 200 application/json; charset=utf-8
+2018-02-10 02:39:05.0627|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-10 02:39:05.3031|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 263.7583ms 404 
+2018-02-10 02:39:05.3287|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-10 02:39:05.3417|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11.3457ms 404 
+2018-02-10 02:39:15.2137|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-10 02:39:15.2988|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-10 02:39:17.0743|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-10 02:39:17.1166|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 1844.3364ms
+2018-02-10 02:39:17.1166|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1906.1441ms 200 application/json; charset=utf-8

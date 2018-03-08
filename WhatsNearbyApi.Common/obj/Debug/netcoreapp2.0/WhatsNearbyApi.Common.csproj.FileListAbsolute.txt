@@ -1,0 +1,8 @@
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi.Common\bin\Debug\netcoreapp2.0\WhatsNearbyApi.Common.deps.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi.Common\bin\Debug\netcoreapp2.0\WhatsNearbyApi.Common.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi.Common\bin\Debug\netcoreapp2.0\WhatsNearbyApi.Common.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi.Common\obj\Debug\netcoreapp2.0\WhatsNearbyApi.Common.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi.Common\obj\Debug\netcoreapp2.0\WhatsNearbyApi.Common.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi.Common\obj\Debug\netcoreapp2.0\WhatsNearbyApi.Common.AssemblyInfo.cs
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi.Common\obj\Debug\netcoreapp2.0\WhatsNearbyApi.Common.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi.Common\obj\Debug\netcoreapp2.0\WhatsNearbyApi.Common.pdb

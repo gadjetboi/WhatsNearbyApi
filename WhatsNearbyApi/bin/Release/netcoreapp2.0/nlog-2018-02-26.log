@@ -1,0 +1,28 @@
+2018-02-26 20:41:32.7874|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 20:41:33.0615|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 308.3326ms 404 
+2018-02-26 20:41:33.0897|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 20:41:33.0977|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.8051ms 404 
+2018-02-26 20:42:30.2358|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user?username=vanzp3@test.com application/json 
+2018-02-26 20:42:30.2622|ERROR|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Request matched multiple actions resulting in ambiguity. Matching actions: PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+2018-02-26 20:42:30.3230|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-02-26 20:42:30.3676|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 134.1313ms 500 text/html; charset=utf-8
+2018-02-26 20:43:13.1495|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 20:43:13.3834|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 264.5027ms 404 
+2018-02-26 20:43:13.4225|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 20:43:13.4225|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.0783ms 404 
+2018-02-26 20:43:24.3122|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user?username=vanzp3@test.com application/json 
+2018-02-26 20:43:24.3386|ERROR|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Request matched multiple actions resulting in ambiguity. Matching actions: PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+2018-02-26 20:43:24.3856|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-02-26 20:43:24.4441|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 115.2226ms 500 text/html; charset=utf-8
+2018-02-26 20:43:41.1096|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user application/json 
+2018-02-26 20:43:41.1096|ERROR|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Request matched multiple actions resulting in ambiguity. Matching actions: PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+2018-02-26 20:43:41.1384|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-02-26 20:43:41.1545|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.7357ms 500 text/html; charset=utf-8
+2018-02-26 20:43:55.6367|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user application/json 
+2018-02-26 20:43:55.6418|ERROR|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Request matched multiple actions resulting in ambiguity. Matching actions: PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+2018-02-26 20:43:55.6659|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-02-26 20:43:55.6815|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 44.9952ms 500 text/html; charset=utf-8

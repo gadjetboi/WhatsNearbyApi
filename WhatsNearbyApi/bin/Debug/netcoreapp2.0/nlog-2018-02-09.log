@@ -1,0 +1,106 @@
+2018-02-09 13:00:41.6539|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-09 13:00:41.9147|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 282.6558ms 404 
+2018-02-09 13:00:41.9434|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-09 13:00:41.9530|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.4765ms 404 
+2018-02-09 13:01:11.8992|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/yelp/GetBusiness application/json 93
+2018-02-09 13:01:11.8992|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.7977ms 404 
+2018-02-09 13:01:27.6024|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness application/json 
+2018-02-09 13:01:27.6024|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.0681ms 404 
+2018-02-09 13:06:57.6293|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-09 13:06:57.8398|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 244.678ms 404 
+2018-02-09 13:06:57.8682|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-09 13:06:57.9096|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.3106ms 404 
+2018-02-09 13:07:06.6304|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness application/json 
+2018-02-09 13:07:06.6396|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.7017ms 404 
+2018-02-09 13:07:18.9131|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness application/json 
+2018-02-09 13:07:18.9244|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.1612ms 404 
+2018-02-09 13:07:27.6742|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/auth/token application/json 62
+2018-02-09 13:07:27.7727|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-09 13:07:27.7727|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-09 13:07:27.8814|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) with arguments (PoliceTracker.Models.UserCredentialDto) - ModelState is Valid
+2018-02-09 13:07:28.0108|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (31ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Discriminator], [u].[Email], [u].[EmailConfirmed], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName], [u].[FirstName], [u].[Gender], [u].[LastName]
+FROM [AspNetUsers] AS [u]
+WHERE ([u].[Discriminator] = N'CustomUser') AND ([u].[NormalizedUserName] = @__normalizedUserName_0)
+2018-02-09 13:07:28.0359|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-02-09 13:07:28.0437|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) in 277.2894ms
+2018-02-09 13:07:28.0437|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 375.315ms 404 
+2018-02-09 13:07:56.7611|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 62
+2018-02-09 13:07:56.7611|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-09 13:07:56.7807|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-09 13:07:56.7926|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker.API) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-09 13:07:56.7926|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-09 13:08:08.6103|ERROR|PoliceTracker.Controllers.SpotterController|Minutes ago value must be greater than 0
+2018-02-09 13:08:08.6191|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-09 13:08:08.6652|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker.API) in 11897.0822ms
+2018-02-09 13:08:08.6652|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11909.9192ms 400 application/json; charset=utf-8
+2018-02-09 13:08:12.1266|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/spotter application/json 
+2018-02-09 13:08:12.1328|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-09 13:08:12.1328|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-09 13:08:12.1328|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Get (PoliceTracker.API) with arguments ((null)) - ModelState is Valid
+2018-02-09 13:08:12.1328|INFO|PoliceTracker.Controllers.SpotterController|Start: Get Spotter Locations
+2018-02-09 13:08:12.2141|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [o].[Id], [o].[Latitude], [o].[Longitude], [o].[MinutesAgo], [o].[ReporterType], [o].[SpottedDateTime], [o].[UserId]
+FROM [SpotterLocations] AS [o]
+WHERE [o].[SpottedDateTime] = GETDATE()
+2018-02-09 13:08:12.2498|INFO|PoliceTracker.Controllers.SpotterController|End: Get Spotter Locations
+2018-02-09 13:08:12.2498|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-09 13:08:12.2580|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Get (PoliceTracker.API) in 125.884ms
+2018-02-09 13:08:12.2580|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 135.0069ms 200 application/json; charset=utf-8
+2018-02-09 13:08:23.1923|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness application/json 
+2018-02-09 13:08:23.2014|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.5244ms 404 
+2018-02-09 13:08:32.2852|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/getbusiness application/json 
+2018-02-09 13:08:32.2900|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.2959ms 404 
+2018-02-09 13:11:00.5283|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-09 13:11:00.7506|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 237.0167ms 404 
+2018-02-09 13:11:00.7772|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-09 13:11:00.7772|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.408ms 404 
+2018-02-09 13:11:02.5527|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/getbusiness application/json 
+2018-02-09 13:11:02.5725|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.3904ms 404 
+2018-02-09 13:11:41.0099|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness application/json 
+2018-02-09 13:11:41.0099|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.4454ms 404 
+2018-02-09 13:12:33.3009|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-09 13:12:33.5162|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 235.4165ms 404 
+2018-02-09 13:12:33.5383|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-09 13:12:33.5383|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.6626ms 404 
+2018-02-09 13:12:35.4502|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp application/json 
+2018-02-09 13:12:35.5012|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.Get (PoliceTracker.API) with arguments ((null)) - ModelState is Valid
+2018-02-09 13:13:39.8568|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp application/json 
+2018-02-09 13:13:39.8568|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-09 13:13:40.1462|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 321.2853ms 404 
+2018-02-09 13:13:40.1597|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 321.3322ms 404 
+2018-02-09 13:13:40.2003|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-09 13:13:40.2003|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.5039ms 404 
+2018-02-09 13:13:47.3054|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness application/json 
+2018-02-09 13:13:47.3581|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments ((null)) - ModelState is Valid
+2018-02-09 13:13:58.9073|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-09 13:13:58.9489|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 11597.7401ms
+2018-02-09 13:13:58.9489|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11649.8215ms 200 application/json; charset=utf-8
+2018-02-09 23:31:36.4217|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-09 23:31:36.9272|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 503.7869ms 404 
+2018-02-09 23:31:36.9639|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-09 23:31:36.9819|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14.4696ms 404 
+2018-02-09 23:32:24.8306|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-09 23:32:25.0085|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-09 23:32:35.7809|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-09 23:32:35.8343|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 10895.7309ms
+2018-02-09 23:32:35.8395|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11007.9021ms 200 application/json; charset=utf-8
+2018-02-09 23:37:24.5066|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-09 23:37:24.8326|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 385.6988ms 404 
+2018-02-09 23:37:24.8571|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-09 23:37:24.8571|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.1425ms 404 
+2018-02-09 23:39:28.0055|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-09 23:39:28.1607|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-09 23:39:32.4549|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-09 23:39:32.4955|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 4387.952ms
+2018-02-09 23:39:32.4955|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4493.6178ms 200 application/json; charset=utf-8
+2018-02-09 23:41:54.6016|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-09 23:41:54.6307|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.9018ms 404 
+2018-02-09 23:42:15.6410|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes  
+2018-02-09 23:42:15.6410|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-09 23:42:25.4769|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-09 23:42:25.5107|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 9852.3774ms
+2018-02-09 23:42:25.5473|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9886.3062ms 200 application/json; charset=utf-8

@@ -1,0 +1,8 @@
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker.Common\bin\Release\netcoreapp2.0\PoliceTracker.Common.deps.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker.Common\bin\Release\netcoreapp2.0\PoliceTracker.Common.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker.Common\bin\Release\netcoreapp2.0\PoliceTracker.Common.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker.Common\obj\Release\netcoreapp2.0\PoliceTracker.Common.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker.Common\obj\Release\netcoreapp2.0\PoliceTracker.Common.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker.Common\obj\Release\netcoreapp2.0\PoliceTracker.Common.AssemblyInfo.cs
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker.Common\obj\Release\netcoreapp2.0\PoliceTracker.Common.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker.Common\obj\Release\netcoreapp2.0\PoliceTracker.Common.pdb

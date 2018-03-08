@@ -1,0 +1,107 @@
+2018-03-01 23:32:25.9116|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-03-01 23:32:26.1511|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 265.5923ms 404 
+2018-03-01 23:32:26.1798|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-03-01 23:32:26.1921|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.4928ms 404 
+2018-03-01 23:32:28.8441|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/yelp/GetBusiness?lat=48.102329&lng=-98.865196&categories=healths application/json 62
+2018-03-01 23:32:28.8841|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 39.3445ms 404 
+2018-03-01 23:33:03.2341|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=48.102329&lng=-98.865196&categories=healths application/json 
+2018-03-01 23:33:03.2943|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed for user: (null).
+2018-03-01 23:33:03.3005|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2018-03-01 23:33:03.3005|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (Bearer).
+2018-03-01 23:33:03.3145|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2018-03-01 23:33:03.3145|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 32.4287ms
+2018-03-01 23:33:03.3270|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 89.9157ms 401 
+2018-03-01 23:33:48.5487|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/auth/token application/json 62
+2018-03-01 23:33:48.5701|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-03-01 23:33:48.5781|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-03-01 23:33:48.5781|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-03-01 23:33:48.5781|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-03-01 23:33:48.6881|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) with arguments (PoliceTracker.Models.UserCredentialDto) - ModelState is Valid
+2018-03-01 23:33:48.7790|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-03-01 23:33:48.7909|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Discriminator", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName", "u"."FirstName", "u"."Gender", "u"."LastName"
+FROM "AspNetUsers" AS "u"
+WHERE ("u"."Discriminator" = 'CustomUser') AND ("u"."NormalizedUserName" = @__normalizedUserName_0)
+LIMIT 1
+2018-03-01 23:33:48.8159|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-03-01 23:33:48.8159|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) in 259.0379ms
+2018-03-01 23:33:48.8159|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 276.7008ms 404 
+2018-03-01 23:40:56.2742|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/auth/token application/json 62
+2018-03-01 23:40:56.2806|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-03-01 23:40:56.2806|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-03-01 23:40:56.2806|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-03-01 23:40:56.2806|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-03-01 23:40:56.3077|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) with arguments (PoliceTracker.Models.UserCredentialDto) - ModelState is Valid
+2018-03-01 23:40:56.3164|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-03-01 23:40:56.3164|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Discriminator", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName", "u"."FirstName", "u"."Gender", "u"."LastName"
+FROM "AspNetUsers" AS "u"
+WHERE ("u"."Discriminator" = 'CustomUser') AND ("u"."NormalizedUserName" = @__normalizedUserName_0)
+LIMIT 1
+2018-03-01 23:40:56.3164|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-03-01 23:40:56.3281|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) in 50.3035ms
+2018-03-01 23:40:56.3474|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 56.8981ms 404 
+2018-03-01 23:41:19.0182|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/auth/token application/json 62
+2018-03-01 23:41:19.0182|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-03-01 23:41:19.0490|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-03-01 23:41:19.0490|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-03-01 23:41:19.0490|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-03-01 23:41:19.0610|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) with arguments (PoliceTracker.Models.UserCredentialDto) - ModelState is Valid
+2018-03-01 23:41:19.0610|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-03-01 23:41:19.0944|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (26ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Discriminator", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName", "u"."FirstName", "u"."Gender", "u"."LastName"
+FROM "AspNetUsers" AS "u"
+WHERE ("u"."Discriminator" = 'CustomUser') AND ("u"."NormalizedUserName" = @__normalizedUserName_0)
+LIMIT 1
+2018-03-01 23:41:19.1838|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-03-01 23:41:19.1876|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_Id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "uc"."Id", "uc"."ClaimType", "uc"."ClaimValue", "uc"."UserId"
+FROM "AspNetUserClaims" AS "uc"
+WHERE "uc"."UserId" = @__user_Id_0
+2018-03-01 23:41:19.2242|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-01 23:41:19.2400|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) in 217.616ms
+2018-03-01 23:41:19.2400|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 227.3366ms 200 application/json; charset=utf-8
+2018-03-01 23:41:38.9863|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&categories=restaurants application/json 
+2018-03-01 23:41:38.9863|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2018-03-01 23:41:38.9985|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-03-01 23:41:38.9985|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-03-01 23:41:38.9985|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful for user: vanzp2@test.com.
+2018-03-01 23:41:39.0426|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, restaurants) - ModelState is Valid
+2018-03-01 23:41:45.3951|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 6393.2475ms
+2018-03-01 23:41:45.4813|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-03-01 23:41:45.5277|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6541.4916ms 500 text/html; charset=utf-8
+2018-03-01 23:44:07.7280|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-03-01 23:44:07.7280|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&categories=restaurants application/json 
+2018-03-01 23:44:07.9922|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2018-03-01 23:44:07.9922|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-03-01 23:44:08.0548|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 374.733ms 404 
+2018-03-01 23:44:08.0853|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-03-01 23:44:08.0926|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.7353ms 404 
+2018-03-01 23:44:08.1368|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-03-01 23:44:08.1436|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful for user: vanzp2@test.com.
+2018-03-01 23:44:08.1778|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, restaurants) - ModelState is Valid
+2018-03-01 23:44:09.0067|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-01 23:44:09.0286|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 888.4184ms
+2018-03-01 23:44:09.0334|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1358.6664ms 400 application/json; charset=utf-8
+2018-03-01 23:44:37.1131|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&categories=restaurants application/json 
+2018-03-01 23:44:37.1131|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2018-03-01 23:44:37.1531|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-03-01 23:44:37.1663|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-03-01 23:44:37.1663|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful for user: vanzp2@test.com.
+2018-03-01 23:44:37.1734|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, restaurants) - ModelState is Valid
+2018-03-01 23:45:11.2660|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-01 23:45:11.2660|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 34106.4569ms
+2018-03-01 23:45:11.2660|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 34163.1932ms 400 application/json; charset=utf-8

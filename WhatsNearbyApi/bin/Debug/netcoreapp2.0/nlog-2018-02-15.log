@@ -1,0 +1,32 @@
+2018-02-15 11:52:06.8529|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-15 11:52:07.1166|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 334.6779ms 404 
+2018-02-15 11:52:07.1456|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-15 11:52:07.1566|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.8277ms 404 
+2018-02-15 11:52:23.7500|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-15 11:52:23.8890|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-15 11:52:26.1202|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-15 11:52:26.1640|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 2318.6967ms
+2018-02-15 11:52:26.1681|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2418.8224ms 200 application/json; charset=utf-8
+2018-02-15 11:54:50.7446|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-15 11:54:50.7488|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-15 11:54:56.3205|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-15 11:54:56.3452|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 5587.4551ms
+2018-02-15 11:54:56.3591|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5608.2017ms 200 application/json; charset=utf-8
+2018-02-15 11:56:03.5059|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-15 11:56:03.7873|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 299.5542ms 404 
+2018-02-15 11:56:03.8188|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-15 11:56:03.8286|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.8837ms 404 
+2018-02-15 11:57:45.3336|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-15 11:57:45.4547|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-15 11:57:49.8452|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-15 11:57:49.9002|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 4482.586ms
+2018-02-15 11:57:49.9057|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4570.7485ms 200 application/json; charset=utf-8
+2018-02-15 11:59:25.9938|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-15 11:59:26.3471|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 375.154ms 404 
+2018-02-15 11:59:26.3894|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-15 11:59:26.4162|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 28.3157ms 404 
+2018-02-15 12:02:12.1117|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&term=cupcakes application/json 
+2018-02-15 12:02:12.2830|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) with arguments (37.786882, -122.399972, cupcakes) - ModelState is Valid
+2018-02-15 12:02:14.3345|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-15 12:02:14.3670|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.API.Controllers.YelpController.GetBusiness (PoliceTracker.API) in 2107.8018ms
+2018-02-15 12:02:14.3707|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2278.692ms 200 application/json; charset=utf-8

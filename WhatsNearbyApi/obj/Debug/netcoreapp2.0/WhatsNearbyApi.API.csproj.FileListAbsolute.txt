@@ -1,0 +1,15 @@
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\bin\Debug\netcoreapp2.0\nlog.config
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\bin\Debug\netcoreapp2.0\WhatsNearbyApi.API.deps.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\bin\Debug\netcoreapp2.0\WhatsNearbyApi.API.runtimeconfig.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\bin\Debug\netcoreapp2.0\WhatsNearbyApi.API.runtimeconfig.dev.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\bin\Debug\netcoreapp2.0\WhatsNearbyApi.API.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\bin\Debug\netcoreapp2.0\WhatsNearbyApi.API.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\bin\Debug\netcoreapp2.0\WhatsNearbyApi.Common.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\bin\Debug\netcoreapp2.0\Yelp.Api.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\bin\Debug\netcoreapp2.0\WhatsNearbyApi.Common.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\obj\Debug\netcoreapp2.0\WhatsNearbyApi.API.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\obj\Debug\netcoreapp2.0\WhatsNearbyApi.API.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\obj\Debug\netcoreapp2.0\WhatsNearbyApi.API.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\obj\Debug\netcoreapp2.0\WhatsNearbyApi.API.AssemblyInfo.cs
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\obj\Debug\netcoreapp2.0\WhatsNearbyApi.API.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\WhatsNearbyApi\WhatsNearbyApi\obj\Debug\netcoreapp2.0\WhatsNearbyApi.API.pdb

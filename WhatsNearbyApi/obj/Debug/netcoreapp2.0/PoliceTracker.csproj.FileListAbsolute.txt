@@ -1,0 +1,14 @@
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\bin\Debug\netcoreapp2.0\nlog.config
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\bin\Debug\netcoreapp2.0\PoliceTracker.deps.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\bin\Debug\netcoreapp2.0\PoliceTracker.runtimeconfig.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\bin\Debug\netcoreapp2.0\PoliceTracker.runtimeconfig.dev.json
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\bin\Debug\netcoreapp2.0\PoliceTracker.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\bin\Debug\netcoreapp2.0\PoliceTracker.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\bin\Debug\netcoreapp2.0\PoliceTracker.Common.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\bin\Debug\netcoreapp2.0\PoliceTracker.Common.pdb
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\obj\Debug\netcoreapp2.0\PoliceTracker.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\obj\Debug\netcoreapp2.0\PoliceTracker.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\obj\Debug\netcoreapp2.0\PoliceTracker.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\obj\Debug\netcoreapp2.0\PoliceTracker.AssemblyInfo.cs
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\obj\Debug\netcoreapp2.0\PoliceTracker.dll
+C:\Users\admin\Documents\Visual Studio 2017\Projects\PoliceTracker\PoliceTracker\obj\Debug\netcoreapp2.0\PoliceTracker.pdb

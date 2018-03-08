@@ -1,0 +1,408 @@
+2018-02-01 00:22:16.7851|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 00:22:17.0230|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 257.3294ms 404 
+2018-02-01 00:22:17.0485|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 00:22:17.0606|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.9988ms 404 
+2018-02-01 00:22:19.9095|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 140
+2018-02-01 00:22:19.9830|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 00:22:20.0375|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 00:22:20.1322|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Valid
+2018-02-01 00:22:24.4399|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 00:22:26.2349|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (32ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [SpotterLocations] ([Latitude], [Longitude], [MinutesAgo], [ReporterType], [SpottedDateTime], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [SpotterLocations]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2018-02-01 00:22:26.2527|INFO|PoliceTracker.Controllers.SpotterController|End: Save Spotter Location
+2018-02-01 00:22:26.2669|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 201
+2018-02-01 00:22:26.2669|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 6295.1183ms
+2018-02-01 00:22:26.2843|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6371.4123ms 201 
+2018-02-01 00:33:21.4399|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 00:33:21.6595|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 240.1202ms 404 
+2018-02-01 00:33:21.6905|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 00:33:21.6905|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.2039ms 404 
+2018-02-01 00:33:27.1555|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 140
+2018-02-01 00:33:27.2176|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 00:33:27.2612|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (37ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 00:33:27.3429|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Valid
+2018-02-01 00:33:27.3460|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 00:33:27.4571|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (49ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (Size = 4000), @p4='?', @p5='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [SpotterLocations] ([Latitude], [Longitude], [MinutesAgo], [ReporterType], [SpottedDateTime], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [SpotterLocations]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2018-02-01 00:33:27.4721|INFO|PoliceTracker.Controllers.SpotterController|End: Save Spotter Location
+2018-02-01 00:33:27.4793|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 201
+2018-02-01 00:33:27.4793|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 276.1179ms
+2018-02-01 00:33:27.4793|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 336.1326ms 201 
+2018-02-01 00:33:44.4355|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 115
+2018-02-01 00:33:44.5716|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 00:33:44.5795|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 00:33:44.6598|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Valid
+2018-02-01 00:33:44.6598|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 00:33:44.7881|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (65ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (Size = 4000), @p4='?', @p5='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [SpotterLocations] ([Latitude], [Longitude], [MinutesAgo], [ReporterType], [SpottedDateTime], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [SpotterLocations]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2018-02-01 00:33:44.8117|INFO|PoliceTracker.Controllers.SpotterController|End: Save Spotter Location
+2018-02-01 00:33:44.8181|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 201
+2018-02-01 00:33:44.8181|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 252.2147ms
+2018-02-01 00:33:44.8181|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 407.7893ms 201 
+2018-02-01 00:40:06.8402|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 00:40:07.0889|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 269.6717ms 404 
+2018-02-01 00:40:07.1532|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 00:40:07.1697|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.2989ms 404 
+2018-02-01 00:40:08.7756|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 115
+2018-02-01 00:40:08.8331|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 00:40:08.8331|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 00:40:08.9328|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Valid
+2018-02-01 00:40:08.9361|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 00:51:47.3605|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 00:51:47.5798|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 244.3083ms 404 
+2018-02-01 00:51:47.6180|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 00:51:47.6353|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.9781ms 404 
+2018-02-01 00:51:50.5248|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 115
+2018-02-01 00:51:50.5843|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 00:51:50.5967|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 00:51:50.6912|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Valid
+2018-02-01 00:51:50.6912|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 00:51:59.9129|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (52ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (Size = 4000), @p4='?', @p5='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [SpotterLocations] ([Latitude], [Longitude], [MinutesAgo], [ReporterType], [SpottedDateTime], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [SpotterLocations]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2018-02-01 00:51:59.9412|INFO|PoliceTracker.Controllers.SpotterController|End: Save Spotter Location
+2018-02-01 00:51:59.9412|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 201
+2018-02-01 00:51:59.9633|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 9378.6103ms
+2018-02-01 00:51:59.9717|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9445.5723ms 201 
+2018-02-01 00:52:10.9721|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 95
+2018-02-01 00:52:10.9721|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 00:52:10.9832|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 00:52:10.9832|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Valid
+2018-02-01 00:52:10.9832|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 00:54:02.6117|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 00:54:02.8186|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 233.496ms 404 
+2018-02-01 00:54:02.8443|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 00:54:02.8604|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.3887ms 404 
+2018-02-01 00:54:03.8233|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 95
+2018-02-01 00:54:03.8804|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 00:54:03.8889|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 00:54:03.9740|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 00:54:03.9740|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:02:44.1839|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 01:02:44.1839|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 95
+2018-02-01 01:02:44.4770|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 329.2925ms 404 
+2018-02-01 01:02:44.5026|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 01:02:44.5026|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.719ms 404 
+2018-02-01 01:02:44.5433|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:02:44.5520|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:02:44.6705|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:02:44.6705|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:02:48.1970|ERROR|PoliceTracker.Controllers.SpotterController|Object reference not set to an instance of an object.
+2018-02-01 01:02:48.2046|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 500
+2018-02-01 01:02:48.2046|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 3669.67ms
+2018-02-01 01:02:48.2176|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4077.2287ms 500 
+2018-02-01 01:02:56.7396|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 95
+2018-02-01 01:02:56.7396|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:02:56.7520|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:02:56.7520|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:02:56.7520|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:06:10.9982|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 01:06:11.2666|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 285.9199ms 404 
+2018-02-01 01:06:11.2925|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 01:06:11.3031|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.4274ms 404 
+2018-02-01 01:06:13.5910|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 95
+2018-02-01 01:06:13.6502|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:06:13.6591|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:06:13.7550|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:06:13.7550|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:06:24.5288|ERROR|PoliceTracker.Controllers.SpotterController|Latitude value must be greater than 0
+2018-02-01 01:06:24.5542|ERROR|PoliceTracker.Controllers.SpotterController|Latitude value must be greater than 0
+2018-02-01 01:06:24.5542|ERROR|PoliceTracker.Controllers.SpotterController|Minutes ago value must be greater than 0
+2018-02-01 01:06:24.5690|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:06:24.6207|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 10975.7808ms
+2018-02-01 01:06:24.6261|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 11035.127ms 404 application/json; charset=utf-8
+2018-02-01 01:11:16.7620|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 01:11:16.7620|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 95
+2018-02-01 01:11:17.0449|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 318.5846ms 404 
+2018-02-01 01:11:17.0719|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 01:11:17.0815|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.4592ms 404 
+2018-02-01 01:11:17.1375|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:11:17.1476|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:11:17.2778|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:11:17.2819|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:11:17.2819|ERROR|PoliceTracker.Controllers.SpotterController|Latitude value must be greater than 0
+2018-02-01 01:11:17.2976|ERROR|PoliceTracker.Controllers.SpotterController|Longitude value must be greater than 0
+2018-02-01 01:11:17.2976|ERROR|PoliceTracker.Controllers.SpotterController|Minutes ago value must be greater than 0
+2018-02-01 01:11:17.3123|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:11:17.3350|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 202.649ms
+2018-02-01 01:11:17.3350|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 629.539ms 400 application/json; charset=utf-8
+2018-02-01 01:11:24.4683|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 140
+2018-02-01 01:11:24.4683|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:11:24.4849|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:11:24.4849|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:11:24.4849|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:11:24.5186|ERROR|PoliceTracker.Controllers.SpotterController|Longitude value must be greater than 0
+2018-02-01 01:11:24.5186|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:11:24.5186|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 47.3734ms
+2018-02-01 01:11:24.5186|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 60.5239ms 400 application/json; charset=utf-8
+2018-02-01 01:35:58.0666|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 01:35:58.0666|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 140
+2018-02-01 01:35:58.2956|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 273.2715ms 404 
+2018-02-01 01:35:58.3185|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 01:35:58.3185|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.7299ms 404 
+2018-02-01 01:35:58.4054|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:35:58.4544|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (40ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:35:58.5330|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Valid
+2018-02-01 01:35:58.5330|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:35:58.6614|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (49ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (Size = 4000), @p4='?', @p5='?'], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [SpotterLocations] ([Latitude], [Longitude], [MinutesAgo], [ReporterType], [SpottedDateTime], [UserId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [SpotterLocations]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2018-02-01 01:35:58.6940|INFO|PoliceTracker.Controllers.SpotterController|End: Save Spotter Location
+2018-02-01 01:35:58.7030|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 201
+2018-02-01 01:35:58.7030|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 315.739ms
+2018-02-01 01:35:58.7173|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 698.4315ms 201 
+2018-02-01 01:36:03.7953|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 139
+2018-02-01 01:36:03.7953|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:36:03.7953|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:36:03.8465|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments () - ModelState is Invalid
+2018-02-01 01:36:03.8465|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:36:03.8465|ERROR|PoliceTracker.Controllers.SpotterController|
+2018-02-01 01:36:03.8619|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:36:03.8786|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 79.2556ms
+2018-02-01 01:36:03.8786|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 87.7861ms 400 application/json; charset=utf-8
+2018-02-01 01:37:15.4854|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 139
+2018-02-01 01:37:15.4854|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:37:15.4854|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:37:15.4997|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments () - ModelState is Invalid
+2018-02-01 01:37:15.5236|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:37:26.3924|ERROR|PoliceTracker.Controllers.SpotterController|
+2018-02-01 01:37:26.3924|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:37:26.3924|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 10909.688ms
+2018-02-01 01:37:26.3924|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10918.3758ms 400 application/json; charset=utf-8
+2018-02-01 01:37:29.6755|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 139
+2018-02-01 01:37:29.6755|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:37:29.6755|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:37:29.6889|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments () - ModelState is Invalid
+2018-02-01 01:37:29.6889|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:39:11.5464|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 01:39:11.5464|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 120
+2018-02-01 01:39:11.8218|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 318.8424ms 404 
+2018-02-01 01:39:11.8563|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 01:39:11.8652|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8.4183ms 404 
+2018-02-01 01:39:11.9006|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:39:11.9090|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:39:12.0108|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:39:12.0142|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:41:04.6375|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 01:41:04.8724|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 239.3695ms 404 
+2018-02-01 01:41:04.9124|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 01:41:04.9124|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.0568ms 404 
+2018-02-01 01:41:05.9495|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 94
+2018-02-01 01:41:06.0152|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:41:06.0152|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:41:06.1241|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:41:06.1241|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:41:31.0625|ERROR|PoliceTracker.Controllers.SpotterController|Latitude value must be greater than 0
+2018-02-01 01:41:31.0625|ERROR|PoliceTracker.Controllers.SpotterController|Minutes ago value must be greater than 0
+2018-02-01 01:41:31.0789|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:41:31.1066|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 25093.4971ms
+2018-02-01 01:41:31.1135|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25161.9133ms 400 application/json; charset=utf-8
+2018-02-01 01:42:03.1204|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 01:42:03.3290|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 230.0389ms 404 
+2018-02-01 01:42:03.3595|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 01:42:03.3736|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.284ms 404 
+2018-02-01 01:42:03.8598|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 94
+2018-02-01 01:42:03.9219|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:42:03.9219|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:42:04.0268|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:42:04.0304|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:42:12.0258|ERROR|PoliceTracker.Controllers.SpotterController|Latitude value must be greater than 0
+2018-02-01 01:42:12.0355|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:42:12.0599|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 8142.1745ms
+2018-02-01 01:42:12.0599|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8205.1988ms 400 application/json; charset=utf-8
+2018-02-01 01:42:33.2705|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 01:42:33.5318|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 280.5933ms 404 
+2018-02-01 01:42:33.5604|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 01:42:33.5604|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 10.8718ms 404 
+2018-02-01 01:42:33.6036|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 94
+2018-02-01 01:42:33.6702|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:42:33.6889|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:42:33.7876|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:42:33.7876|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:42:36.9408|ERROR|PoliceTracker.Controllers.SpotterController|Minutes ago value must be greater than 0
+2018-02-01 01:42:36.9538|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:42:36.9791|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 3314.7894ms
+2018-02-01 01:42:36.9859|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3380.0659ms 400 application/json; charset=utf-8
+2018-02-01 01:42:45.1680|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 120
+2018-02-01 01:42:45.1731|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:42:45.1731|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:42:45.1731|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:42:45.1852|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:42:46.5990|ERROR|PoliceTracker.Controllers.SpotterController|Minutes ago value must be greater than 0
+2018-02-01 01:42:46.5990|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:42:46.5990|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 1434.0519ms
+2018-02-01 01:42:46.6097|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1440.3701ms 400 application/json; charset=utf-8
+2018-02-01 01:43:16.3616|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 139
+2018-02-01 01:43:16.5010|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:43:16.5010|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:43:16.5812|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments () - ModelState is Invalid
+2018-02-01 01:43:16.5812|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:43:16.5812|ERROR|PoliceTracker.Controllers.SpotterController|
+2018-02-01 01:43:16.5812|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:43:16.6024|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 101.81ms
+2018-02-01 01:43:16.6024|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 259.0329ms 400 application/json; charset=utf-8
+2018-02-01 01:43:24.3382|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 120
+2018-02-01 01:43:24.3382|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:43:24.3457|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:43:24.3457|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:43:24.3457|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:43:24.3594|ERROR|PoliceTracker.Controllers.SpotterController|Minutes ago value must be greater than 0
+2018-02-01 01:43:24.3594|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:43:24.3594|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 21.5914ms
+2018-02-01 01:43:24.3594|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 24.9518ms 400 application/json; charset=utf-8
+2018-02-01 01:43:25.5649|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 120
+2018-02-01 01:43:25.5649|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:43:25.5649|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:43:25.5649|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:43:25.5649|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:43:25.5649|ERROR|PoliceTracker.Controllers.SpotterController|Minutes ago value must be greater than 0
+2018-02-01 01:43:25.5766|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:43:25.5766|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 11.6212ms
+2018-02-01 01:43:25.5766|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 13.629ms 400 application/json; charset=utf-8
+2018-02-01 01:43:30.2340|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 139
+2018-02-01 01:43:30.2340|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:43:30.2340|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:43:30.2340|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments () - ModelState is Invalid
+2018-02-01 01:43:30.2340|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:43:30.2340|ERROR|PoliceTracker.Controllers.SpotterController|
+2018-02-01 01:43:30.2340|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:43:30.2340|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 10.448ms
+2018-02-01 01:43:30.2340|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 12.8003ms 400 application/json; charset=utf-8
+2018-02-01 01:43:30.9596|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 139
+2018-02-01 01:43:30.9596|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:43:30.9596|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:43:30.9596|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments () - ModelState is Invalid
+2018-02-01 01:43:30.9662|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:43:30.9662|ERROR|PoliceTracker.Controllers.SpotterController|
+2018-02-01 01:43:30.9662|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:43:30.9662|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 7.7586ms
+2018-02-01 01:43:30.9662|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.7188ms 400 application/json; charset=utf-8
+2018-02-01 01:43:41.7203|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 01:43:41.9825|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 264.0763ms 404 
+2018-02-01 01:43:42.0052|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 01:43:42.0502|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 21.0212ms 404 
+2018-02-01 01:43:43.1202|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 139
+2018-02-01 01:43:43.1782|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:43:43.1861|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:43:43.2703|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments () - ModelState is Invalid
+2018-02-01 01:43:43.2703|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:43:45.0966|ERROR|PoliceTracker.Controllers.SpotterController|
+2018-02-01 01:43:45.0966|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:43:45.1279|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 1952.1854ms
+2018-02-01 01:43:45.1399|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2014.8631ms 400 application/json; charset=utf-8
+2018-02-01 01:43:48.8907|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 139
+2018-02-01 01:43:48.8907|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:43:48.8907|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:43:48.8907|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments () - ModelState is Invalid
+2018-02-01 01:43:48.9065|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:43:55.2898|ERROR|PoliceTracker.Controllers.SpotterController|
+2018-02-01 01:44:03.3564|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:44:03.3597|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 14465.8982ms
+2018-02-01 01:44:03.3597|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 14472.2386ms 400 application/json; charset=utf-8
+2018-02-01 01:44:32.3374|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-01 01:44:32.4678|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 113
+2018-02-01 01:44:32.5651|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 252.2873ms 404 
+2018-02-01 01:44:32.5971|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-01 01:44:32.5971|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.8055ms 404 
+2018-02-01 01:44:32.6457|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:44:32.6543|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:44:32.7601|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments () - ModelState is Invalid
+2018-02-01 01:44:32.7635|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:44:36.0801|ERROR|PoliceTracker.Controllers.SpotterController|
+2018-02-01 01:44:36.0801|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:44:36.1159|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 3473.9544ms
+2018-02-01 01:44:36.1159|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3655.4556ms 400 application/json; charset=utf-8
+2018-02-01 01:44:46.7780|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 93
+2018-02-01 01:44:46.7910|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:44:46.7969|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:44:46.7969|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:44:46.8117|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:44:48.3802|ERROR|PoliceTracker.Controllers.SpotterController|Latitude value must be greater than 0
+2018-02-01 01:44:48.3802|ERROR|PoliceTracker.Controllers.SpotterController|Minutes ago value must be greater than 0
+2018-02-01 01:44:48.3802|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:44:48.3919|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 1607.2529ms
+2018-02-01 01:44:48.3919|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1616.7957ms 400 application/json; charset=utf-8
+2018-02-01 01:44:52.1483|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 113
+2018-02-01 01:44:52.1483|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:44:52.1579|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:44:52.1579|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments () - ModelState is Invalid
+2018-02-01 01:44:52.1579|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:44:53.4323|ERROR|PoliceTracker.Controllers.SpotterController|
+2018-02-01 01:44:53.4323|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:44:53.4383|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 1286.1206ms
+2018-02-01 01:44:53.4383|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1292.9299ms 400 application/json; charset=utf-8
+2018-02-01 01:45:31.0949|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 115
+2018-02-01 01:45:31.2372|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:45:31.2372|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:45:31.3130|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments () - ModelState is Invalid
+2018-02-01 01:45:31.3130|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:45:31.3130|ERROR|PoliceTracker.Controllers.SpotterController|
+2018-02-01 01:45:31.3130|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:45:31.3324|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 95.7831ms
+2018-02-01 01:45:31.3324|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 256.2958ms 400 application/json; charset=utf-8
+2018-02-01 01:45:36.5061|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/spotter application/json 93
+2018-02-01 01:45:36.5061|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2018-02-01 01:45:36.5145|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+2018-02-01 01:45:36.5145|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) with arguments (PoliceTracker.Models.SpotterLocationDto) - ModelState is Invalid
+2018-02-01 01:45:36.5145|INFO|PoliceTracker.Controllers.SpotterController|Start: Save Spotter Location
+2018-02-01 01:45:36.5145|ERROR|PoliceTracker.Controllers.SpotterController|Latitude value must be greater than 0
+2018-02-01 01:45:36.5145|ERROR|PoliceTracker.Controllers.SpotterController|Minutes ago value must be greater than 0
+2018-02-01 01:45:36.5301|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-01 01:45:36.5301|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.SpotterController.Save (PoliceTracker) in 23.7029ms
+2018-02-01 01:45:36.5301|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.5714ms 400 application/json; charset=utf-8

@@ -1,0 +1,30 @@
+2018-03-08 14:27:17.2685|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-03-08 14:27:17.8237|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 565.2756ms 404 
+2018-03-08 14:27:17.8730|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-03-08 14:27:17.9007|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 26.229ms 404 
+2018-03-08 14:27:27.8682|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-03-08 14:27:27.8682|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.2747ms 404 
+2018-03-08 14:27:28.1223|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-03-08 14:27:28.1285|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.1122ms 404 
+2018-03-08 14:27:33.8524|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&categories=restaurants application/json 
+2018-03-08 14:27:33.9439|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2018-03-08 14:27:33.9520|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-03-08 14:27:34.0436|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-03-08 14:27:34.0601|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful for user: vanzp2@test.com.
+2018-03-08 14:27:34.1208|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WhatsNearby.API.Controllers.YelpController.GetBusiness (WhatsNearby.API) with arguments (37.786882, -122.399972, restaurants) - ModelState is Valid
+2018-03-08 14:27:35.2164|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-08 14:27:35.2977|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WhatsNearby.API.Controllers.YelpController.GetBusiness (WhatsNearby.API) in 1255.5203ms
+2018-03-08 14:27:35.2977|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1450.2845ms 200 application/json; charset=utf-8
+2018-03-08 14:27:43.8304|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/yelp/GetBusiness?lat=37.786882&lng=-122.399972&categories=restaurants application/json 
+2018-03-08 14:27:43.8304|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2018-03-08 14:27:43.8304|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-03-08 14:27:43.8304|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-03-08 14:27:43.8448|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful for user: vanzp2@test.com.
+2018-03-08 14:27:43.8448|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WhatsNearby.API.Controllers.YelpController.GetBusiness (WhatsNearby.API) with arguments (37.786882, -122.399972, restaurants) - ModelState is Valid
+2018-03-08 14:27:44.8179|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-03-08 14:27:44.8179|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WhatsNearby.API.Controllers.YelpController.GetBusiness (WhatsNearby.API) in 983.7563ms
+2018-03-08 14:27:44.8307|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 998.8797ms 200 application/json; charset=utf-8
+2018-03-08 15:38:38.8407|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-03-08 15:38:39.0581|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 236.284ms 404 
+2018-03-08 15:38:39.0835|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-03-08 15:38:39.0835|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.7521ms 404 

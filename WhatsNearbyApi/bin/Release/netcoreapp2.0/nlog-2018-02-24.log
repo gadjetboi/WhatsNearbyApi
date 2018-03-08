@@ -1,0 +1,55 @@
+2018-02-24 12:40:41.1487|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-24 12:40:41.4360|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 306.9602ms 404 
+2018-02-24 12:40:41.4630|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-24 12:40:41.4723|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.7754ms 404 
+2018-02-24 12:42:01.1206|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-24 12:42:01.4449|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 353.7982ms 404 
+2018-02-24 12:42:01.4896|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-24 12:42:01.5103|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 7.5618ms 404 
+2018-02-24 12:47:05.4925|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-24 12:47:05.7293|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 258.9991ms 404 
+2018-02-24 12:47:05.7532|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-24 12:47:05.7671|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.5829ms 404 
+2018-02-24 12:47:09.5032|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/auth/register application/json 127
+2018-02-24 12:47:09.5909|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-24 12:47:09.5964|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-24 12:47:09.5964|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-24 12:47:09.5964|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-24 12:47:09.7093|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.AccountController.Register (PoliceTracker.API) with arguments (PoliceTracker.Models.RegisterUserDto) - ModelState is Valid
+2018-02-24 12:47:09.8319|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-24 12:47:09.8444|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Discriminator", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName", "u"."FingerPrintId", "u"."FirstName", "u"."Gender", "u"."LastName"
+FROM "AspNetUsers" AS "u"
+WHERE ("u"."Discriminator" = 'CustomUser') AND ("u"."NormalizedUserName" = @__normalizedUserName_0)
+LIMIT 1
+2018-02-24 12:47:09.9158|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-24 12:47:09.9373|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?', @p12='?', @p13='?', @p14='?', @p15='?', @p16='?', @p17='?', @p18='?', @p19='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "Discriminator", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName", "FingerPrintId", "FirstName", "Gender", "LastName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16, @p17, @p18, @p19);
+2018-02-24 12:47:09.9859|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-24 12:47:09.9859|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Discriminator", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName", "u"."FingerPrintId", "u"."FirstName", "u"."Gender", "u"."LastName"
+FROM "AspNetUsers" AS "u"
+WHERE ("u"."Discriminator" = 'CustomUser') AND ("u"."NormalizedUserName" = @__normalizedUserName_0)
+LIMIT 1
+2018-02-24 12:47:09.9984|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-24 12:47:09.9984|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@p0='?', @p1='?', @p2='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "AspNetUserClaims" ("ClaimType", "ClaimValue", "UserId")
+VALUES (@p0, @p1, @p2);
+SELECT "Id"
+FROM "AspNetUserClaims"
+WHERE changes() = 1 AND "Id" = last_insert_rowid();
+2018-02-24 12:47:10.0166|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@p18='?', @p0='?', @p1='?', @p19='?', @p2='?', @p3='?', @p4='?', @p5='?', @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?', @p12='?', @p13='?', @p14='?', @p15='?', @p16='?', @p17='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NormalizedEmail" = @p6, "NormalizedUserName" = @p7, "PasswordHash" = @p8, "PhoneNumber" = @p9, "PhoneNumberConfirmed" = @p10, "SecurityStamp" = @p11, "TwoFactorEnabled" = @p12, "UserName" = @p13, "FingerPrintId" = @p14, "FirstName" = @p15, "Gender" = @p16, "LastName" = @p17
+WHERE "Id" = @p18 AND "ConcurrencyStamp" = @p19;
+SELECT changes();
+2018-02-24 12:47:10.0457|INFO|Microsoft.AspNetCore.Mvc.StatusCodeResult|Executing HttpStatusCodeResult, setting HTTP status code 201
+2018-02-24 12:47:10.0457|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.AccountController.Register (PoliceTracker.API) in 466.1086ms
+2018-02-24 12:47:10.0457|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 555.1414ms 201 

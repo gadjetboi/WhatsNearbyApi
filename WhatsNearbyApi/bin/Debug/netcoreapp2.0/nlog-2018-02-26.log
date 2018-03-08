@@ -1,0 +1,298 @@
+2018-02-26 20:44:19.9369|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 20:44:19.9369|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user application/json 
+2018-02-26 20:44:20.2738|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 382.5484ms 404 
+2018-02-26 20:44:20.2888|ERROR|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Request matched multiple actions resulting in ambiguity. Matching actions: PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+2018-02-26 20:44:20.3015|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 20:44:20.3433|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 25.3717ms 404 
+2018-02-26 20:44:20.3837|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-02-26 20:44:20.4307|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 559.7836ms 500 text/html; charset=utf-8
+2018-02-26 20:45:02.4256|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 20:45:02.4256|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user application/json 
+2018-02-26 20:45:02.7194|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 352.2259ms 404 
+2018-02-26 20:45:02.7426|ERROR|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Request matched multiple actions resulting in ambiguity. Matching actions: PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+2018-02-26 20:45:02.7527|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 20:45:02.7642|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.8609ms 404 
+2018-02-26 20:45:02.8068|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-02-26 20:45:02.8448|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 484.1086ms 500 text/html; charset=utf-8
+2018-02-26 20:46:26.4618|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 20:46:26.7015|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 251.4146ms 404 
+2018-02-26 20:46:26.7252|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 20:46:26.7339|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.573ms 404 
+2018-02-26 20:46:38.6215|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user application/json 
+2018-02-26 20:46:38.6449|ERROR|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Request matched multiple actions resulting in ambiguity. Matching actions: PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+2018-02-26 20:46:38.6872|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-02-26 20:46:38.7312|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 109.6781ms 500 text/html; charset=utf-8
+2018-02-26 20:47:05.9989|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user application/json 
+2018-02-26 20:47:05.9989|ERROR|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Request matched multiple actions resulting in ambiguity. Matching actions: PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+2018-02-26 20:47:06.0326|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-02-26 20:47:06.0471|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 48.0848ms 500 text/html; charset=utf-8
+2018-02-26 20:48:54.9986|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 20:48:55.2149|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 238.5713ms 404 
+2018-02-26 20:48:55.2383|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 20:48:55.2383|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.8932ms 404 
+2018-02-26 20:49:17.7468|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/GetByUsername?username=vanzp3@test.com application/json 
+2018-02-26 20:49:17.7544|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.829ms 404 
+2018-02-26 20:49:38.3687|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/getbyusername?username=vanzp3@test.com application/json 
+2018-02-26 20:49:38.3747|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2.5219ms 404 
+2018-02-26 20:49:53.8768|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/GetByUsername/?username=vanzp3@test.com application/json 
+2018-02-26 20:49:53.8893|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.1714ms 404 
+2018-02-26 20:50:24.7191|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/GetByUsername/?username=vanzp3@test.com application/json 
+2018-02-26 20:50:24.7191|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 20:50:24.9911|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 303.3307ms 404 
+2018-02-26 20:50:25.0347|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 20:50:25.0347|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.6207ms 404 
+2018-02-26 20:50:25.1010|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-26 20:50:25.1093|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:50:25.1093|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:50:25.1093|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-26 20:50:29.5833|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) with arguments (vanzp3@test.com) - ModelState is Valid
+2018-02-26 20:50:32.2327|INFO|PoliceTracker.Controllers.UserController|Start: Get User by username
+2018-02-26 20:50:34.7973|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:50:34.7973|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__username_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."AccessFailedCount", "o"."ConcurrencyStamp", "o"."Discriminator", "o"."Email", "o"."EmailConfirmed", "o"."LockoutEnabled", "o"."LockoutEnd", "o"."NormalizedEmail", "o"."NormalizedUserName", "o"."PasswordHash", "o"."PhoneNumber", "o"."PhoneNumberConfirmed", "o"."SecurityStamp", "o"."TwoFactorEnabled", "o"."UserName", "o"."FingerPrintId", "o"."FirstName", "o"."Gender", "o"."LastName"
+FROM "AspNetUsers" AS "o"
+WHERE ("o"."Discriminator" = 'CustomUser') AND ("o"."UserName" = @__username_0)
+LIMIT 1
+2018-02-26 20:50:40.8260|INFO|PoliceTracker.Controllers.UserController|End: Get User by username
+2018-02-26 20:50:40.8360|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-26 20:50:40.8442|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) in 15745.9205ms
+2018-02-26 20:50:40.8442|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16180.4333ms 204 
+2018-02-26 20:50:47.2475|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/GetByUsername/?username=vanzp2@test.com application/json 
+2018-02-26 20:50:47.2559|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-26 20:50:47.2559|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:50:47.2639|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:50:47.2639|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-26 20:50:47.2639|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) with arguments (vanzp2@test.com) - ModelState is Valid
+2018-02-26 20:50:49.1429|INFO|PoliceTracker.Controllers.UserController|Start: Get User by username
+2018-02-26 20:50:49.2772|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:50:49.2819|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__username_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."AccessFailedCount", "o"."ConcurrencyStamp", "o"."Discriminator", "o"."Email", "o"."EmailConfirmed", "o"."LockoutEnabled", "o"."LockoutEnd", "o"."NormalizedEmail", "o"."NormalizedUserName", "o"."PasswordHash", "o"."PhoneNumber", "o"."PhoneNumberConfirmed", "o"."SecurityStamp", "o"."TwoFactorEnabled", "o"."UserName", "o"."FingerPrintId", "o"."FirstName", "o"."Gender", "o"."LastName"
+FROM "AspNetUsers" AS "o"
+WHERE ("o"."Discriminator" = 'CustomUser') AND ("o"."UserName" = @__username_0)
+LIMIT 1
+2018-02-26 20:50:55.7086|INFO|PoliceTracker.Controllers.UserController|End: Get User by username
+2018-02-26 20:50:55.7086|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-26 20:50:55.8100|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) in 8554.4601ms
+2018-02-26 20:50:55.8135|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 8565.9085ms 200 application/json; charset=utf-8
+2018-02-26 20:51:39.4982|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 20:51:39.7120|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 235.6594ms 404 
+2018-02-26 20:51:39.7421|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 20:51:39.7497|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.0942ms 404 
+2018-02-26 20:51:42.3106|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/?username=vanzp2@test.com application/json 
+2018-02-26 20:51:42.3356|ERROR|Microsoft.AspNetCore.Mvc.Internal.ActionSelector|Request matched multiple actions resulting in ambiguity. Matching actions: PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+PoliceTracker.Controllers.UserController.Get (PoliceTracker.API)
+2018-02-26 20:51:42.3787|ERROR|Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware|An unhandled exception has occurred while executing the request
+2018-02-26 20:51:42.4197|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 108.9908ms 500 text/html; charset=utf-8
+2018-02-26 20:52:19.7063|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 20:52:19.7063|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/?username=vanzp2@test.com application/json 
+2018-02-26 20:52:19.9645|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 302.2841ms 404 
+2018-02-26 20:52:19.9959|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 20:52:20.0074|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 16.1575ms 404 
+2018-02-26 20:52:20.0280|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed for user: (null).
+2018-02-26 20:52:20.0323|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2018-02-26 20:52:20.0323|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes ().
+2018-02-26 20:52:20.0454|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2018-02-26 20:52:20.0454|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.UserController.Get (PoliceTracker.API) in 29.0929ms
+2018-02-26 20:52:20.0454|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 399.815ms 401 
+2018-02-26 20:52:33.4967|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/get/?username=vanzp2@test.com application/json 
+2018-02-26 20:52:33.5253|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-26 20:52:33.5315|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:52:33.5315|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:52:33.5315|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-26 20:52:33.5963|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.UserController.Get (PoliceTracker.API) with arguments (vanzp2@test.com) - ModelState is Valid
+2018-02-26 20:52:35.8961|INFO|PoliceTracker.Controllers.UserController|Start: Get User by username
+2018-02-26 20:52:35.9846|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:52:35.9846|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__username_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."AccessFailedCount", "o"."ConcurrencyStamp", "o"."Discriminator", "o"."Email", "o"."EmailConfirmed", "o"."LockoutEnabled", "o"."LockoutEnd", "o"."NormalizedEmail", "o"."NormalizedUserName", "o"."PasswordHash", "o"."PhoneNumber", "o"."PhoneNumberConfirmed", "o"."SecurityStamp", "o"."TwoFactorEnabled", "o"."UserName", "o"."FingerPrintId", "o"."FirstName", "o"."Gender", "o"."LastName"
+FROM "AspNetUsers" AS "o"
+WHERE ("o"."Discriminator" = 'CustomUser') AND ("o"."UserName" = @__username_0)
+LIMIT 1
+2018-02-26 20:52:36.0399|INFO|PoliceTracker.Controllers.UserController|End: Get User by username
+2018-02-26 20:52:36.0473|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-26 20:52:36.1089|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.UserController.Get (PoliceTracker.API) in 2591.5328ms
+2018-02-26 20:52:36.1237|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2622.6635ms 200 application/json; charset=utf-8
+2018-02-26 20:53:57.8534|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/vanzp2@test.com application/json 
+2018-02-26 20:53:57.8534|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 33.3723ms 404 
+2018-02-26 20:54:18.2375|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 20:54:18.4964|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 286.1801ms 404 
+2018-02-26 20:54:18.5278|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 20:54:18.5350|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 6.2607ms 404 
+2018-02-26 20:54:18.9036|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/vanzp2@test.com application/json 
+2018-02-26 20:54:18.9082|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 4.7931ms 404 
+2018-02-26 20:57:46.0747|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 20:57:46.3059|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 256.645ms 404 
+2018-02-26 20:57:46.3418|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 20:57:46.3608|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 17.4044ms 404 
+2018-02-26 20:57:47.4296|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/by/?username=vanzp2@test.com application/json 
+2018-02-26 20:57:47.4950|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-26 20:57:47.5013|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:57:47.5013|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:57:47.5013|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-26 20:57:47.5476|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) with arguments (vanzp2@test.com) - ModelState is Valid
+2018-02-26 20:57:49.2963|INFO|PoliceTracker.Controllers.UserController|Start: Get User by username
+2018-02-26 20:57:49.3795|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:57:49.3795|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (1ms) [Parameters=[@__username_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."AccessFailedCount", "o"."ConcurrencyStamp", "o"."Discriminator", "o"."Email", "o"."EmailConfirmed", "o"."LockoutEnabled", "o"."LockoutEnd", "o"."NormalizedEmail", "o"."NormalizedUserName", "o"."PasswordHash", "o"."PhoneNumber", "o"."PhoneNumberConfirmed", "o"."SecurityStamp", "o"."TwoFactorEnabled", "o"."UserName", "o"."FingerPrintId", "o"."FirstName", "o"."Gender", "o"."LastName"
+FROM "AspNetUsers" AS "o"
+WHERE ("o"."Discriminator" = 'CustomUser') AND ("o"."UserName" = @__username_0)
+LIMIT 1
+2018-02-26 20:57:49.4373|INFO|PoliceTracker.Controllers.UserController|End: Get User by username
+2018-02-26 20:57:49.4373|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-26 20:57:49.5066|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) in 2011.8461ms
+2018-02-26 20:57:49.5066|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 2080.0795ms 200 application/json; charset=utf-8
+2018-02-26 20:58:07.7068|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/by?username=vanzp2@test.com application/json 
+2018-02-26 20:58:07.7068|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-26 20:58:07.7467|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:58:07.7538|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:58:07.7538|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-26 20:58:07.7538|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) with arguments (vanzp2@test.com) - ModelState is Valid
+2018-02-26 20:58:07.7665|INFO|PoliceTracker.Controllers.UserController|Start: Get User by username
+2018-02-26 20:58:07.7665|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 20:58:07.7665|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__username_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."AccessFailedCount", "o"."ConcurrencyStamp", "o"."Discriminator", "o"."Email", "o"."EmailConfirmed", "o"."LockoutEnabled", "o"."LockoutEnd", "o"."NormalizedEmail", "o"."NormalizedUserName", "o"."PasswordHash", "o"."PhoneNumber", "o"."PhoneNumberConfirmed", "o"."SecurityStamp", "o"."TwoFactorEnabled", "o"."UserName", "o"."FingerPrintId", "o"."FirstName", "o"."Gender", "o"."LastName"
+FROM "AspNetUsers" AS "o"
+WHERE ("o"."Discriminator" = 'CustomUser') AND ("o"."UserName" = @__username_0)
+LIMIT 1
+2018-02-26 20:58:07.7665|INFO|PoliceTracker.Controllers.UserController|End: Get User by username
+2018-02-26 20:58:07.7826|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-26 20:58:07.7826|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) in 75.8467ms
+2018-02-26 20:58:07.7826|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 82.2498ms 200 application/json; charset=utf-8
+2018-02-26 21:12:22.9208|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/by?username=vanzp2@test.com application/json 
+2018-02-26 21:12:23.0582|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2018-02-26 21:12:23.0582|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-02-26 21:12:23.1802|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-26 21:12:23.1802|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:12:23.1867|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:12:23.1867|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-26 21:12:23.2262|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) with arguments (vanzp2@test.com) - ModelState is Valid
+2018-02-26 21:12:23.2262|INFO|PoliceTracker.Controllers.UserController|Start: Get User by username
+2018-02-26 21:12:23.2979|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:12:23.2979|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__username_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."AccessFailedCount", "o"."ConcurrencyStamp", "o"."Discriminator", "o"."Email", "o"."EmailConfirmed", "o"."LockoutEnabled", "o"."LockoutEnd", "o"."NormalizedEmail", "o"."NormalizedUserName", "o"."PasswordHash", "o"."PhoneNumber", "o"."PhoneNumberConfirmed", "o"."SecurityStamp", "o"."TwoFactorEnabled", "o"."UserName", "o"."FingerPrintId", "o"."FirstName", "o"."Gender", "o"."LastName"
+FROM "AspNetUsers" AS "o"
+WHERE ("o"."Discriminator" = 'CustomUser') AND ("o"."UserName" = @__username_0)
+LIMIT 1
+2018-02-26 21:12:23.3537|INFO|PoliceTracker.Controllers.UserController|End: Get User by username
+2018-02-26 21:12:23.3587|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-26 21:12:23.3806|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) in 199.5469ms
+2018-02-26 21:12:23.3806|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 483.4192ms 200 application/json; charset=utf-8
+2018-02-26 21:13:20.0669|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 21:13:20.0669|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/by?username=vanzp2@test.com application/json 
+2018-02-26 21:13:20.3178|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|Successfully validated the token.
+2018-02-26 21:13:20.3178|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-02-26 21:13:20.3903|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 356.6339ms 404 
+2018-02-26 21:13:20.4166|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 21:13:20.4226|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3.4485ms 404 
+2018-02-26 21:13:20.4607|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was successfully authenticated.
+2018-02-26 21:13:20.4682|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization was successful for user: vanzp2@test.com.
+2018-02-26 21:13:20.5017|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-26 21:13:20.5147|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:13:20.5147|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:13:20.5329|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-26 21:13:20.5857|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) with arguments (vanzp2@test.com) - ModelState is Valid
+2018-02-26 21:13:20.5857|INFO|PoliceTracker.Controllers.UserController|Start: Get User by username
+2018-02-26 21:13:20.7136|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:13:20.7250|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__username_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "o"."Id", "o"."AccessFailedCount", "o"."ConcurrencyStamp", "o"."Discriminator", "o"."Email", "o"."EmailConfirmed", "o"."LockoutEnabled", "o"."LockoutEnd", "o"."NormalizedEmail", "o"."NormalizedUserName", "o"."PasswordHash", "o"."PhoneNumber", "o"."PhoneNumberConfirmed", "o"."SecurityStamp", "o"."TwoFactorEnabled", "o"."UserName", "o"."FingerPrintId", "o"."FirstName", "o"."Gender", "o"."LastName"
+FROM "AspNetUsers" AS "o"
+WHERE ("o"."Discriminator" = 'CustomUser') AND ("o"."UserName" = @__username_0)
+LIMIT 1
+2018-02-26 21:13:20.7892|INFO|PoliceTracker.Controllers.UserController|End: Get User by username
+2018-02-26 21:13:20.8026|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-26 21:13:20.8596|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) in 397.6496ms
+2018-02-26 21:13:20.8596|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 850.906ms 200 application/json; charset=utf-8
+2018-02-26 21:13:26.9037|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/user/by?username=vanzp2@test.com application/json 
+2018-02-26 21:13:26.9103|INFO|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|Authorization failed for user: (null).
+2018-02-26 21:13:26.9103|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2018-02-26 21:13:26.9103|INFO|Microsoft.AspNetCore.Mvc.ChallengeResult|Executing ChallengeResult with authentication schemes (Bearer).
+2018-02-26 21:13:26.9273|INFO|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was challenged.
+2018-02-26 21:13:26.9273|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.UserController.GetByUsername (PoliceTracker.API) in 22.9877ms
+2018-02-26 21:13:26.9273|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 29.4854ms 401 
+2018-02-26 21:39:12.7358|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/  
+2018-02-26 21:39:13.0401|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 334.4685ms 404 
+2018-02-26 21:39:13.0667|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/favicon.ico  
+2018-02-26 21:39:13.0795|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 5.6464ms 404 
+2018-02-26 21:40:07.8280|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/auth/token application/json 62
+2018-02-26 21:40:07.9106|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-26 21:40:07.9106|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:40:07.9254|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:40:07.9254|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-26 21:40:08.0285|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) with arguments (PoliceTracker.Models.UserCredentialDto) - ModelState is Valid
+2018-02-26 21:40:08.1360|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:40:08.1478|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Discriminator", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName", "u"."FingerPrintId", "u"."FirstName", "u"."Gender", "u"."LastName"
+FROM "AspNetUsers" AS "u"
+WHERE ("u"."Discriminator" = 'CustomUser') AND ("u"."NormalizedUserName" = @__normalizedUserName_0)
+LIMIT 1
+2018-02-26 21:40:08.2458|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:40:08.2490|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_Id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "uc"."Id", "uc"."ClaimType", "uc"."ClaimValue", "uc"."UserId"
+FROM "AspNetUserClaims" AS "uc"
+WHERE "uc"."UserId" = @__user_Id_0
+2018-02-26 21:40:08.2864|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-26 21:40:08.3197|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) in 415.4189ms
+2018-02-26 21:40:08.3197|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 497.3976ms 200 application/json; charset=utf-8
+2018-02-26 21:40:34.1227|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET http://localhost:49870/api/auth/token application/json 
+2018-02-26 21:40:34.1536|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 9.5358ms 404 
+2018-02-26 21:40:38.3002|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST http://localhost:49870/api/auth/token application/json 62
+2018-02-26 21:40:38.3002|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 2.0.1-rtm-125 initialized 'PoliceTrackerContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2018-02-26 21:40:38.3156|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:40:38.3156|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:40:38.3156|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2018-02-26 21:40:38.3313|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) with arguments (PoliceTracker.Models.UserCredentialDto) - ModelState is Valid
+2018-02-26 21:40:38.3313|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:40:38.3313|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Discriminator", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName", "u"."FingerPrintId", "u"."FirstName", "u"."Gender", "u"."LastName"
+FROM "AspNetUsers" AS "u"
+WHERE ("u"."Discriminator" = 'CustomUser') AND ("u"."NormalizedUserName" = @__normalizedUserName_0)
+LIMIT 1
+2018-02-26 21:40:38.3537|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+PRAGMA foreign_keys=ON;
+2018-02-26 21:40:38.3537|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (0ms) [Parameters=[@__user_Id_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT "uc"."Id", "uc"."ClaimType", "uc"."ClaimValue", "uc"."UserId"
+FROM "AspNetUserClaims" AS "uc"
+WHERE "uc"."UserId" = @__user_Id_0
+2018-02-26 21:40:38.3604|INFO|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+2018-02-26 21:40:38.3604|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action PoliceTracker.Controllers.AccountController.Issue (PoliceTracker.API) in 54.7048ms
+2018-02-26 21:40:38.3604|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 67.276ms 200 application/json; charset=utf-8
